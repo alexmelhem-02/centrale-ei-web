@@ -35,3 +35,19 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  border: 2px solid rgba(0, 0, 0, 0.5); /* Dark semi-opaque border */
+  border-radius: 20px; /* Rounded sides */
+  background-color: transparent; /* No background color */
+  padding: 8px 12px; /* Adjust padding as needed */
+  color: #fff; /* Text color */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Optional: Add hover and focus styles */
+input:hover,
+input:focus {
+  border-color: rgba(0, 0, 0, 0.8); /* Darker border on hover/focus */
+}
+
